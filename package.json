@@ -1,0 +1,24 @@
+{
+  "name": "health-insurance-risk-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DV-SoftEnginFall2025-Sprint-04/Health-Insurance-Risk-Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DV-SoftEnginFall2025-Sprint-04/Health-Insurance-Risk-Calculator/issues"
+  },
+  "homepage": "https://github.com/DV-SoftEnginFall2025-Sprint-04/Health-Insurance-Risk-Calculator#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
