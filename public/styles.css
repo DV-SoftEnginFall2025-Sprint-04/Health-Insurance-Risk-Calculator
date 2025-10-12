@@ -1,0 +1,89 @@
+:root {
+  --body-bg-image: url("background_tile1.gif");
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: var(--body-bg-image);
+  background-repeat: repeat;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.23;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+.instructions-container {
+  background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px auto;
+    max-width: 700px;
+    margin: 40px auto;    
+}
+
+button {
+  background-color: #0170c0;
+  color: white;
+  border: none;
+  padding: .75rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 40px;
+}
