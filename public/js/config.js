@@ -1,2 +1,2 @@
 // change to public url
-window.API_BASE = 'http://localhost:5000';
+window.API_BASE = 'https://hirc-gtbtcsbwamgecbak.centralus-01.azurewebsites.net';
