@@ -38,13 +38,13 @@
     <form id="riskForm" novalidate>
       <div class="row">
         <div class="field" id="ageField">
-          <label for="age">Age</label>
+          <label for="age">Age (0 to 100 years old)</label>
           <input type="number" id="age" name="age" min="0" max="100" inputmode="numeric" required />
           <div class="error-text">Enter an age between 0 and 100.</div>
         </div>
 
         <div class="field" id="weightField">
-          <label for="weightLb">Weight (pounds)</label>
+          <label for="weightLb">Weight (50 to 500 lbs)</label>
           <input type="number" id="weightLb" name="weightLb" min="50" max="500" required />
           <div class="error-text">Enter a weight between 50 and 500 lb.</div>
         </div>
@@ -52,13 +52,13 @@
 
       <div class="row">
         <div class="field" id="heightFtField">
-          <label for="feet">Height (feet)</label>
+          <label for="feet">Height (3 to 8 feet)</label>
           <input type="number" id="feet" name="feet" min="3" max="8" required />
           <div class="error-text">Feet must be at least 3 and not more than 8.</div>
         </div>
 
         <div class="field" id="heightInField">
-          <label for="inches">Height (inches)</label>
+          <label for="inches">Height (0 to 11 inches)</label>
           <input type="number" id="inches" name="inches" min="0" max="11" required />
           <div class="error-text">Inches must be between 0 and 11.</div>
         </div>
@@ -66,13 +66,13 @@
 
       <div class="row">
         <div class="field" id="sysField">
-          <label for="systolic">Systolic (mmHg)</label>
+          <label for="systolic">Systolic (70 to 250 mmHg)</label>
           <input type="number" id="systolic" name="systolic" min="70" max="250" required />
           <div class="error-text">Systolic must be between 70 and 250.</div>
         </div>
 
         <div class="field" id="diaField">
-          <label for="diastolic">Diastolic (mmHg)</label>
+          <label for="diastolic">Diastolic (40 to 150 mmHg)</label>
           <input type="number" id="diastolic" name="diastolic" min="40" max="150" required />
           <div class="error-text">Diastolic must be between 40 and 150.</div>
         </div>
@@ -83,7 +83,7 @@
         <div class="checkboxes">
           <label><input type="checkbox" id="fh-diabetes" /> Diabetes</label>
           <label><input type="checkbox" id="fh-cancer" /> Cancer</label>
-          <label><input type="checkbox" id="fh-alz" /> Alzheimer’s</label>
+          <label><input type="checkbox" id="fh-alz" /> Alzheimer's</label>
         </div>
       </fieldset>
 
